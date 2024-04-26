@@ -1,5 +1,5 @@
 {% set name = "csaps" %}
-{% set version = "0.11.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/csaps-{{ version }}.tar.gz
-  sha256: 977644db0aa1a10b9e99c7159ea7f70b064310b8fc4bfd8fc6d293b0bfc3c385
+  sha256: 236dfb52c15fd60e3da655577fcaf1aaedf6bd0e4bf10404bd2cb481ef25c4d1
 
 build:
   noarch: python
